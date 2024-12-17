@@ -1,0 +1,67 @@
+/* src/pages/Article.css */
+
+.like-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .like-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    
+    margin-right: 10px;
+  }
+  
+  .like-button:hover {
+    opacity: 0.8;
+  }
+  
+  .comments-section {
+    margin-top: 30px;
+  }
+  
+  .comments-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .comments-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comments-section li {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .comments-section form {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .comments-section input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .comments-section button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .comments-section button:hover {
+    background-color: #45a049;
+  }
+  
