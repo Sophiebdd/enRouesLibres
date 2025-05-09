@@ -1,5 +1,4 @@
 {
-  "/schedule/page": "app/schedule/page.js",
   "/contact/page": "app/contact/page.js",
   "/blog/page": "app/blog/page.js",
   "/blog/[id]/page": "app/blog/[id]/page.js",

@@ -5,16 +5,23 @@ export default function Home() {
   return (
     <div className="space-y-12">
       {/* Hero Section */}
-      <section className="text-center space-y-6">
-        <h2 className="text-4xl font-bold text-indigo-600 mb-4">
-          Bienvenue aux Ateliers en Roues Libres !
-        </h2>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-          Un espace chaleureux pour les enfants de 0 à 3 ans et leurs parents. Notre minibus se déplace de village en village pour proposer des jeux, des livres et des activités adaptés aux tout-petits.
-        </p>
-        <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-          Rejoignez-nous pour partager des moments ludiques et éducatifs, même dans les zones rurales !
-        </p>
+      <section className="flex flex-col md:flex-row items-center justify-center text-center md:text-left space-y-6 md:space-y-0 md:space-x-12">
+        <img 
+          src="/erlibres.png" 
+          alt="Logo En Roues Libres" 
+          className="w-60 h-60 object-contain mx-auto md:mx-0 mb-4 md:mb-0 drop-shadow-lg bg-white rounded-full p-2"
+        />
+        <div className="flex flex-col justify-center items-center md:items-start h-full">
+          <h2 className="text-4xl font-bold text-indigo-600 mb-4">
+            Bienvenue aux Ateliers en Roues Libres !
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl leading-relaxed">
+            Un espace chaleureux pour les enfants de 0 à 3 ans et leurs parents. Notre minibus se déplace de village en village pour proposer des jeux, des livres et des activités adaptés aux tout-petits.
+          </p>
+          <p className="text-lg text-gray-700 max-w-2xl">
+            Rejoignez-nous pour partager des moments ludiques et éducatifs, même dans les zones rurales !
+          </p>
+        </div>
       </section>
 
       {/* Features Section */}

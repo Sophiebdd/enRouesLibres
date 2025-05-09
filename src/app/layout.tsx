@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Les Ateliers en Roues Libres',
+  title: '🚌 Les Ateliers en Roues Libres',
   description: 'Bus itinérant pour jeunes enfants et parents : jeux, ateliers, rencontres',
 };
 
